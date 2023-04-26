@@ -74,3 +74,29 @@ nav .links a:hover {
   margin: 0 auto;
   border: white;
 }
+
+/* header 4 */
+.box {
+  margin: 50px 0;
+  background-color: purple;
+  border-color: white;
+  padding: 10px 15px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+#box-1 {
+  display: flex;
+  justify-content:;
+  align-items: flex-start;
+  align-content: space-around ;
+
+  flex-direction: column;
+  padding: 0.1rem;
+  margin: 5px 0;
+}
+
+.box-1 h2 h3 p {
+  margin: 50px 0;
+  padding: 1rem;
+}
