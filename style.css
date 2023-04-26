@@ -87,10 +87,8 @@ nav .links a:hover {
 
 #box-1 {
   display: flex;
-  justify-content:;
   align-items: flex-start;
   align-content: space-around ;
-
   flex-direction: column;
   padding: 0.1rem;
   margin: 5px 0;
