@@ -98,3 +98,35 @@ nav .links a:hover {
   margin: 50px 0;
   padding: 1rem;
 }
+
+/* *RANDOM-COlUMN SECTION */
+.random-columns {
+  height: 500px;
+  text-align: center;
+}
+
+.random-columns h1 {
+  font-family: 'Roboto-Black', sans-serif;
+  font-size: 36px;
+  padding: 40px;
+}
+
+.random-columns figure {
+  display: inline-block;
+  height: 250px;
+  width: 180px;
+  margin: 20px;
+}
+
+.random-columns img {
+  height: 170px;
+  width: 170px;
+  border: solid 4px #3882f6;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.random-columns figcaption {
+  font-size: 18px;
+  margin: 5px;
+}
