@@ -1,160 +1,165 @@
 * {
-    font-family: "Roboto", sans-serif;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    background-color: #1f2937;
-    padding: 20px 150px;
+  background-color: #1f2937;
+  padding: 20px 150px;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 nav .logo {
-    font-size: 24px;
-    color: #f9faf8;
+  font-size: 24px;
+  color: #f9faf8;
 }
 
 nav .links a {
-    color: #e5e7eb;
-    text-decoration: none;
-    padding-left: 20px;
-    transition: color 150ms ease-in-out;
+  color: #e5e7eb;
+  text-decoration: none;
+  padding-left: 20px;
+  transition: color 150ms ease-in-out;
 }
 
 nav .links a:hover {
-    color: #3882f6;
+  color: #3882f6;
 }
 
 .about-page {
-    margin: 100px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+  margin: 100px 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .about-info {
-    width: 50%;
+  width: 50%;
+  padding-top: 60px;
 }
 
 .about-info h1 {
-    font-size: 48px;
-    color: #f9faf8;
+  font-size: 48px;
+  color: #f9faf8;
 }
 
 .about-info p {
-    font-size: 18px;
-    color: #e5e7eb;
-    padding: 15px 0;
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 15px 0;
 }
 
 .about-info button {
-    color: #fff;
-    background-color: #3882f6;
-    padding: 10px 15px;
-    border: #3882f6;
-    border-radius: 5px;
-    transition: all 150ms ease-in-out;
+  color: #fff;
+  background-color: #3882f6;
+  padding: 10px 15px;
+  border: #3882f6;
+  border-radius: 5px;
+  transition: all 150ms ease-in-out;
 }
 
 .about-info button:hover {
-    cursor: pointer;
-    background-color: #fff;
-    color: #3882f6;
+  cursor: pointer;
+  background-color: #fff;
+  color: #3882f6;
 }
 
-.about-page .image {
-    width: 50%;
-    margin: 0 auto;
-    border: white;
+.about-page .cinema-image {
+  width: 50%;
+  margin: 0 auto;
+  border: white;
+}
+
+.about-page .cinema-image img {
+  width: 500px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 /* Sign up */
 .box {
-    background-color: #800080		;
-    border: solid 1px #800020;
-    padding: 10px 15px;
-    font-size: 15px;
-    color: #e5e7eb;
-    display: flex;
-    text-align: left;
-    width: 60%;
-    margin: auto;
-    height: auto;
-    margin-top: 5vw;
+  background-color: #800080;
+  border: solid 1px #800020;
+  padding: 10px 15px;
+  font-size: 15px;
+  color: #e5e7eb;
+  display: flex;
+  text-align: left;
+  width: 60%;
+  margin: auto;
+  height: auto;
+  margin-top: 5vw;
 }
 
 .box-1 {
-    display: flex;
-    align-content: space-between;
-    padding: 0.1rem;
-    margin: 5px 0;
-    flex-direction: column;
-    align-self: center;
+  display: flex;
+  align-content: space-between;
+  padding: 0.1rem;
+  margin: 5px 0;
+  flex-direction: column;
+  align-self: center;
 }
 
 /* *RANDOM-COlUMN SECTION */
 .random-columns {
-    height: 500px;
-    text-align: center;
+  height: 500px;
+  text-align: center;
 }
 
 .random-columns h1 {
-    font-family: "Roboto-Black", sans-serif;
-    font-size: 36px;
-    padding: 40px;
+  font-family: "Roboto-Black", sans-serif;
+  font-size: 36px;
+  padding: 40px;
 }
 
 .random-columns figure {
-    display: inline-block;
-    height: 250px;
-    width: 180px;
-    margin: 20px;
+  display: inline-block;
+  height: 250px;
+  width: 180px;
+  margin: 20px;
 }
 
 .random-columns img {
-    height: 170px;
-    width: 170px;
-    border: solid 4px #3882f6;
-    border-radius: 20px;
-    object-fit: cover;
+  height: 170px;
+  width: 170px;
+  border: solid 4px #3882f6;
+  border-radius: 20px;
+  object-fit: cover;
 }
 
 .random-columns figcaption {
-    font-size: 18px;
-    margin: 5px;
+  font-size: 18px;
+  margin: 5px;
 }
 .quote-container {
-    display: flex;
-    background-color: #e5e7eb;
-    text-align: left;
-    width: 80%;
-    margin: auto;
-    height: auto;
-    margin-top: 5vw;
+  display: flex;
+  background-color: #e5e7eb;
+  text-align: left;
+  width: 80%;
+  margin: auto;
+  height: auto;
+  margin-top: 5vw;
 }
 .quote {
-    align-items: center;
-    padding: 7vw;
+  align-items: center;
+  padding: 7vw;
 }
 .quote-text {
-    padding: 1vh;
-    font-size: 36px;
-    font-style: italic;
-    color: #1f2937;
-    font-weight: lighter;
+  padding: 1vh;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: lighter;
 }
 .quote-author {
-    text-align: right;
+  text-align: right;
 }
 @media only screen and (max-width: 767px) {
-    .quote-container {
-        margin-top: 250px;
-    }
+  .quote-container {
+    margin-top: 250px;
+  }
 }
