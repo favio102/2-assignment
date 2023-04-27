@@ -90,6 +90,19 @@ p {
   padding-bottom: 10px;
 }
 
+.link-more {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #749fe4;
+  transition: all 150ms ease-in-out;
+}
+
+.link-more:hover {
+  cursor: pointer;
+  color: #a0b9e1;
+}
+
 @media (max-width: 1020px) {
   .movie-container {
     width: 100vh;
