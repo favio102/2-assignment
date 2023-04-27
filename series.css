@@ -29,7 +29,12 @@ nav .links a:hover {
   color: #749fe4;
 }
 
+.poland {
+  background-color: #1f2937;
+  padding-bottom: 25px;
+}
 .country {
+  color: #749fe4;
   padding: 50px 0 0 50px;
   font-size: 24px;
   font-weight: bolder;
@@ -44,6 +49,7 @@ nav .links a:hover {
 
 .movie-container {
   margin-bottom: 15px;
+  background-color: rgba(255, 255, 255, 0.6);
   display: flex;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 10px;
