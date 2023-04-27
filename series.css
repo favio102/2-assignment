@@ -1,0 +1,30 @@
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 15px 150px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+nav .logo {
+  font-size: 24px;
+  color: #3882f6;
+}
+
+nav .links a {
+  color: #3882f6;
+  text-decoration: none;
+  padding-left: 20px;
+  transition: color 150ms ease-in-out;
+}
+
+nav .links a:hover {
+  color: #749fe4;
+}
