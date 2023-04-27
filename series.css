@@ -26,7 +26,7 @@ nav .links a {
 }
 
 nav .links a:hover {
-  color: #749fe4;
+  color: rgb(116, 159, 228);
 }
 
 .poland {
@@ -48,10 +48,10 @@ nav .links a:hover {
 }
 
 .movie-container {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   background-color: rgba(255, 255, 255, 0.6);
   display: flex;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(116, 159, 228, 0.4) 0px 7px 29px 0px;
   padding: 10px;
   border-radius: 10px;
   width: 45vw;
