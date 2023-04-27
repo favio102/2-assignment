@@ -28,3 +28,58 @@ nav .links a {
 nav .links a:hover {
   color: #749fe4;
 }
+
+.country {
+  padding: 50px 0 0 50px;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.container {
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.movie-container {
+  margin-bottom: 15px;
+  display: flex;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 45vw;
+}
+
+.container .movie-img img {
+  width: 100px;
+}
+
+.movie-info {
+  padding-left: 10px;
+}
+
+.movie-info .title {
+  font-size: 24px;
+}
+.runtime,
+.genre,
+.ghost {
+  font-size: 13px;
+}
+
+.ghost {
+  padding: 0 5px;
+}
+
+.movie-info .about {
+  font-size: 15px;
+}
+
+.movie-info .people {
+  font-size: 13px;
+}
+
+p {
+  padding-bottom: 10px;
+}
