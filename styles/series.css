@@ -92,6 +92,7 @@ nav .links a:hover {
 
 .movie-info .about {
   font-size: 15px;
+  text-align: justify;
 }
 
 .movie-info .people {
