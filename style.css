@@ -11,14 +11,22 @@ header {
 }
 
 nav {
+  padding: 20px 150px;
+  width: 100%;
+  height: 70px;
+  background-color: #1f2937;
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  position: fixed;
+  top: 0;
+  align-items: center;
+  border-bottom: 1px solid #e5e7eb;
 }
 
 nav .logo {
-  font-size: 24px;
-  color: #f9faf8;
+  font-size: 40px;
+  color: #0d5fe4;
+  text-shadow: 1px 1px 1px #fff;
 }
 
 nav .links a {
@@ -73,7 +81,7 @@ nav .links a:hover {
 .about-page .cinema-image {
   width: 50%;
   margin: 0 auto;
-  border: white;
+  border: rgb(255, 255, 255);
 }
 
 .about-page .cinema-image img {
@@ -130,6 +138,7 @@ nav .links a:hover {
   margin-top: 5vw;
 }
 /* quote section */
+
 .quote {
   text-align: center;
   height: auto;
@@ -154,8 +163,9 @@ nav .links a:hover {
 }
 
 /* Sign up */
+
 .box {
-  background-color: #3882f6;
+  background-color: #070A52;
   padding: 30px 25px;
   font-size: 15px;
   color: #e5e7eb;
