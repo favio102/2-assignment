@@ -82,49 +82,24 @@ nav .links a:hover {
   border-radius: 5px;
 }
 
-/* Sign up */
-.box {
-  background-color: #3882f6;
-  padding: 30px 25px;
-  font-size: 15px;
-  color: #e5e7eb;
-  display: flex;
-  text-align: left;
-  width: 60%;
-  margin: auto;
-  height: auto;
-  margin-top: 5vw;
-  border-radius: 10px;
-}
-
-.box-1 {
-  display: flex;
-  align-content: space-between;
-  padding: 0.1rem;
-  margin: 5px 0;
-  flex-direction: column;
-  align-self: center;
-}
-.box-1 button {
-  border: 1px solid #e5e7eb;
-  width: 50%;
-  align-self: center;
-}
-
 /* *RANDOM-COlUMN SECTION */
-.random-columns {
-  height: 500px;
-  text-align: center;
-}
 
-.random-columns h1 {
+.user-testimonials h1 {
   font-family: "Roboto-Black", sans-serif;
   font-size: 36px;
   padding: 40px;
+  text-align: center;
+}
+
+.random-columns {
+  height: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .random-columns figure {
-  display: inline-block;
+  justify-content: center;
   height: 250px;
   width: 180px;
   margin: 20px;
@@ -170,7 +145,41 @@ nav .links a:hover {
   .quote-container {
     margin-top: 250px;
   }
+  .quote-text {
+    font-size: 25px;
+  }
 }
+
+/* Sign up */
+.box {
+  background-color: #3882f6;
+  padding: 30px 25px;
+  font-size: 15px;
+  color: #e5e7eb;
+  display: flex;
+  text-align: left;
+  width: 60%;
+  margin: auto;
+  height: auto;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  border-radius: 10px;
+}
+
+.box-1 {
+  display: flex;
+  align-content: space-between;
+  padding: 0.1rem;
+  margin: 5px 0;
+  flex-direction: column;
+  align-self: center;
+}
+.box-1 button {
+  border: 1px solid #e5e7eb;
+  width: 50%;
+  align-self: center;
+}
+
 footer {
   margin-top: 5vh;
   text-align: center;
@@ -204,6 +213,26 @@ footer p {
   .about-page .cinema-image img {
     width: 400px;
   }
+
+  .box {
+    padding: 20px 10px;
+    font-size: 13px;
+    margin-top: 3vh;
+  }
+
+  .box-1 {
+    display: flex;
+    align-content: space-around;
+    padding: 0.2rem;
+    margin: 2px 0;
+    width: 50%;
+  }
+
+  .box-1 button {
+    border: 1px solid #e5e7eb;
+    width: 60%;
+    align-self: center;
+  }
 }
 
 @media (max-width: 780px) {
@@ -214,7 +243,24 @@ footer p {
   .about-info {
     width: 100%;
   }
+
+  p .1-box {
+  }
 }
 
 @media (max-width: 895px) {
+  .user-testimonials {
+    justify-content: center;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  .random-columns {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .random-columns figure {
+    display: block;
+  }
 }
