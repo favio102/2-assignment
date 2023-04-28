@@ -84,6 +84,9 @@ nav .links a:hover {
 
 /* *RANDOM-COlUMN SECTION */
 
+.user-testimonials {
+  padding: 50px 0;
+}
 .user-testimonials h1 {
   font-family: "Roboto-Black", sans-serif;
   font-size: 36px;
@@ -131,23 +134,21 @@ nav .links a:hover {
   text-align: center;
   height: auto;
   background-color: #e5e7eb;
-  padding: 130px;
+  padding: 100px;
+  font-style: italic;
 }
 
-.quote blockquote {
+.quote p {
   display: inline-block;
   text-align: left;
   width: 80%;
-  min-width: 350px;
-  max-width: 790px;
-  font-size: 36px;
+  font-size: 30px;
+  opacity: 0.7;
 }
 
 .quote .author {
   display: block;
   font-size: 30px;
-  font-style: normal;
-  font-weight: bold;
   text-align: right;
   margin-right: 30px;
 }
@@ -237,20 +238,6 @@ footer p {
   }
 }
 
-@media (max-width: 780px) {
-  .about-page .cinema-image {
-    display: none;
-  }
-
-  .about-info {
-    width: 100%;
-  }
-
-  .box-1 p {
-    display: none;
-  }
-}
-
 @media (max-width: 895px) {
   .user-testimonials {
     justify-content: center;
@@ -259,5 +246,32 @@ footer p {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+  }
+  .quote {
+    padding: 50px 100px;
+  }
+
+  .quote p {
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .quote .author {
+    font-size: 24px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 780px) {
+  .about-page .cinema-image {
+    display: none;
+  }
+
+  .about-info {
+    width: 100%;
+  }
+  .box-1 p {
+    display: none;
   }
 }
