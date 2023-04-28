@@ -252,16 +252,10 @@ footer p {
 @media (max-width: 895px) {
   .user-testimonials {
     justify-content: center;
-    margin-bottom: 0;
-    padding: 0;
   }
   .random-columns {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-  }
-
-  .random-columns figure {
-    display: block;
   }
 }
