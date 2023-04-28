@@ -1,110 +1,124 @@
 * {
-  font-family: "Roboto", sans-serif;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  padding: 15px 150px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 15px 150px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 nav .logo {
-  font-size: 24px;
-  color: #3882f6;
+    font-size: 24px;
+    color: #3882f6;
 }
 
 nav .links a {
-  color: #3882f6;
-  text-decoration: none;
-  padding-left: 20px;
-  transition: color 150ms ease-in-out;
+    color: #3882f6;
+    text-decoration: none;
+    padding-left: 20px;
+    transition: color 150ms ease-in-out;
 }
 
 nav .links a:hover {
-  color: rgb(116, 159, 228);
+    color: rgb(116, 159, 228);
 }
 
 .poland {
-  background-color: #1f2937;
-  padding-bottom: 25px;
+    background-color: #1f2937;
+    padding-bottom: 25px;
 }
 .country {
-  color: #749fe4;
-  padding: 50px 0 0 50px;
-  font-size: 24px;
-  font-weight: bolder;
+    color: #749fe4;
+    padding: 50px 0 0 50px;
+    font-size: 24px;
+    font-weight: bolder;
 }
 
 .container {
-  padding: 20px 50px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .movie-container {
-  margin-bottom: 25px;
-  background-color: rgba(255, 255, 255, 0.6);
-  display: flex;
-  box-shadow: rgba(116, 159, 228, 0.4) 0px 7px 29px 0px;
-  padding: 10px;
-  border-radius: 10px;
-  width: 45vw;
+    margin-bottom: 25px;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    box-shadow: rgba(116, 159, 228, 0.4) 0px 7px 29px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 45vw;
 }
 
 .container .movie-img img {
-  width: 100px;
+    width: 100px;
 }
 
 .movie-info {
-  padding-left: 10px;
+    padding-left: 10px;
 }
 
 .movie-info .title {
-  font-size: 24px;
+    font-size: 24px;
 }
 .runtime,
 .genre,
 .ghost {
-  font-size: 13px;
+    font-size: 13px;
 }
 
 .ghost {
-  padding: 0 5px;
+    padding: 0 5px;
 }
 
 .movie-info .about {
-  font-size: 15px;
+    font-size: 15px;
 }
 
 .movie-info .people {
-  font-size: 13px;
+    font-size: 13px;
 }
 
 p {
-  padding-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .link-more {
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-  color: #749fe4;
-  transition: all 150ms ease-in-out;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #749fe4;
+    transition: all 150ms ease-in-out;
 }
 
 .link-more:hover {
-  cursor: pointer;
-  color: #a0b9e1;
+    cursor: pointer;
+    color: #a0b9e1;
 }
 
 @media (max-width: 1020px) {
-  .movie-container {
-    width: 100vh;
-  }
+    .movie-container {
+        width: 100vh;
+    }
+}
+.greece {
+    background-color: #1f2937;
+    padding-bottom: 25px;
+}
+footer {
+    border-top: 1px solid #e5e7eb;
+    text-align: center;
+    color: #e5e7eb;
+    height: 8vh;
+    background-color: #1f2937;
+}
+footer p {
+    padding: 23px;
 }
