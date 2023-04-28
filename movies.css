@@ -13,9 +13,11 @@ nav {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-nav .logo {
+.logo a {
     font-size: 24px;
     color: #3882f6;
+    text-decoration: none;
+    transition: color 150ms ease-in-out;
 }
 
 nav .links a {
